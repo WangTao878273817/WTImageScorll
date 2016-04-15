@@ -8,6 +8,7 @@
 2.在需要的地方添加如下代码：
 
 //创建显示本地图片view
+
 UIView *imageScorll=[WTImageScroll ShowLocationImageScrollWithFream:CGRectMake(0, 0, SCREENWIDTH, 200) andImageArray:array andBtnClick:^(NSInteger tagValue) {
 
     NSLog(@"点击的图片----%@",@(tagValue));
@@ -15,6 +16,7 @@ UIView *imageScorll=[WTImageScroll ShowLocationImageScrollWithFream:CGRectMake(0
    }];
    
 //创建显示网络图片view
+
 UIView *imageScorll=[WTImageScroll ShowNetWorkImageScrollWithFream:CGRectMake(0, 20, SCREENWIDTH, 200) andImageArray:netArray andBtnClick:^(NSInteger tagValue) {
 
         NSLog(@"点击的图片--%@",@(tagValue));
